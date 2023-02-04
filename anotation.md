@@ -69,3 +69,22 @@
     boxes  
     boxes.find('a').text #após refinar posso extrair apenas os dados que quero
     boxes.find('p', class_= 'price').text
+
+# Selenium
+
+    '''Usado para fazer scrapping em páginas que são carregadas com JS e nao conseguimos obter o HTNL diretamente'''
+
+    #install
+    pip install selenium
+
+    #instal driver
+    instala o drive do navegador na página respetiva
+
+    #aplicando o modulo
+
+    from selenium import webdriver #importa 
+
+    driver = webdriver.Chrome('C:/Users/phill/Desktop/Estudo/Python/chromedriver.exe') #chama o driver baixado
+
+    #requisição http
+    driver.get('https://sites.google.com/chromium.org/driver/downloads')
