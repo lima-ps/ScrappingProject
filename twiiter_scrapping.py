@@ -15,11 +15,11 @@ time.sleep(2)
 
 #login
 login = driver.find_element(By.XPATH, '/html/body/div/div/div/div/main/div/div/div/div[2]/div[2]/div/div[5]/label/div/div[2]/div/input') #localiza o input do email
-login.send_keys('tramp_super@yahoo.com') #preenche o email
+login.send_keys('umteste@gmail.com') #preenche o email
 driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div/main/div/div/div/div[2]/div[2]/div/div[6]').click() #press next to go to password
 
 password = driver.find_element(By.XPATH, '/html/body/div/div/div/div/main/div/div/div/div[2]/div[2]/div[1]/div/div/div/div[3]/div/label/div/div[2]/div[1]/input') #acha o campo de input
-password.send_keys('Supertramp.142') #preenche a pass
+password.send_keys('*********') #preenche a pass
 driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div/main/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div').click() #button login
 driver.find_element(By.XPATH, '//*[@id="layers"]/div/div/div/div/div/div[2]/div[1]').click() #accept buttom terms 
 
